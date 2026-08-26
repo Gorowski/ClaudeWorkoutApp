@@ -1,0 +1,14 @@
+{
+  "name": "night-unit-call-sheet",
+  "version": "0.2.0",
+  "description": "Training log for a six-day push/pull/legs split. Offline-first, no build step.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node tools/serve.mjs",
+    "test": "node tests/run.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.49.0"
+  }
+}

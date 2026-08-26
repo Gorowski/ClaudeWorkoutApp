@@ -1,0 +1,399 @@
+{
+  "routines": {
+    "legsA": {
+      "id": "legsA",
+      "name": "Legs A",
+      "focus": "Quad-led",
+      "cardio": "",
+      "warmup": "Stepmill 8 min easy, then 2–3 ramp sets on the pendulum squat.",
+      "ex": [
+        {
+          "id": "legsA_e1",
+          "name": "Pendulum Squat",
+          "sets": 2,
+          "lo": 8,
+          "hi": 12,
+          "load": 60,
+          "cue": "Feet low and narrow. Three seconds down, no bounce out of the hole."
+        },
+        {
+          "id": "legsA_e2",
+          "name": "Romanian Deadlift",
+          "sets": 2,
+          "lo": 8,
+          "hi": 10,
+          "load": 80,
+          "cue": "Stop two reps short. Never take a hinge to failure."
+        },
+        {
+          "id": "legsA_e3",
+          "name": "Leg Extension",
+          "sets": 2,
+          "lo": 12,
+          "hi": 15,
+          "load": 70,
+          "cue": "Myo-reps on set 2: to failure, rest 15 sec, 4 reps, repeat three times."
+        },
+        {
+          "id": "legsA_e4",
+          "name": "Seated Leg Curl",
+          "sets": 2,
+          "lo": 10,
+          "hi": 15,
+          "load": 57.5,
+          "cue": "Lengthened partials after failure on set 2."
+        },
+        {
+          "id": "legsA_e5",
+          "name": "Standing Calf Raise",
+          "sets": 3,
+          "lo": 10,
+          "hi": 15,
+          "load": 110,
+          "cue": "Two-second pause at the bottom of every rep."
+        }
+      ]
+    },
+    "pushA": {
+      "id": "pushA",
+      "name": "Push A",
+      "focus": "Chest-led",
+      "cardio": "45 min incline walk",
+      "warmup": "Bar × 15, then 60 kg × 8 and 70 kg × 4.",
+      "ex": [
+        {
+          "id": "pushA_e1",
+          "name": "Bench Press",
+          "sets": 2,
+          "lo": 6,
+          "hi": 8,
+          "load": 100,
+          "cue": "Set 1 at 2 reps in reserve, set 2 at 0–1. No singles, no doubles."
+        },
+        {
+          "id": "pushA_e2",
+          "name": "Incline DB Press",
+          "sets": 2,
+          "lo": 8,
+          "hi": 10,
+          "load": 35,
+          "cue": "Per hand."
+        },
+        {
+          "id": "pushA_e3",
+          "name": "Cable Fly",
+          "sets": 2,
+          "lo": 12,
+          "hi": 15,
+          "load": 14.5,
+          "cue": "Per side. Own the bottom, don't rush it."
+        },
+        {
+          "id": "pushA_e4",
+          "name": "Seated DB Shoulder Press",
+          "sets": 2,
+          "lo": 8,
+          "hi": 10,
+          "load": 25,
+          "cue": "Per hand."
+        },
+        {
+          "id": "pushA_e5",
+          "name": "Lateral Raise",
+          "sets": 3,
+          "lo": 12,
+          "hi": 20,
+          "load": 8,
+          "cue": "Per hand. Cheat the last few up, lower them slow."
+        },
+        {
+          "id": "pushA_e6",
+          "name": "Cable Triceps Pushdown",
+          "sets": 2,
+          "lo": 10,
+          "hi": 15,
+          "load": 37,
+          "cue": "Last, not first. Fresh triceps are what let you press 80."
+        },
+        {
+          "id": "pushA_e7",
+          "name": "Cable Crunch",
+          "sets": 2,
+          "lo": 12,
+          "hi": 15,
+          "load": 43.75,
+          "cue": "Round the spine, don't hip-hinge it."
+        }
+      ]
+    },
+    "pullA": {
+      "id": "pullA",
+      "name": "Pull A",
+      "focus": "Heavy rows",
+      "cardio": "45 min incline walk",
+      "warmup": "Ramp to your working weight — the 20 kg and 40 kg sets are warm-ups, not sets.",
+      "ex": [
+        {
+          "id": "pullA_e1",
+          "name": "Plate Loaded Row",
+          "sets": 2,
+          "lo": 6,
+          "hi": 10,
+          "load": 60,
+          "cue": "First, while you're fresh. Both work sets at the same load."
+        },
+        {
+          "id": "pullA_e2",
+          "name": "Cable Lat Pulldown",
+          "sets": 2,
+          "lo": 8,
+          "hi": 12,
+          "load": 50,
+          "cue": "Chest up, drive elbows to the floor."
+        },
+        {
+          "id": "pullA_e3",
+          "name": "Seated Cable Row, narrow",
+          "sets": 2,
+          "lo": 8,
+          "hi": 12,
+          "load": 90,
+          "cue": "Pause a beat at the sternum."
+        },
+        {
+          "id": "pullA_e4",
+          "name": "Reverse Pec Deck",
+          "sets": 3,
+          "lo": 15,
+          "hi": 20,
+          "load": 20,
+          "cue": "Rear delts. Light and high rep — don't chase load here."
+        },
+        {
+          "id": "pullA_e5",
+          "name": "Cable Shrug",
+          "sets": 2,
+          "lo": 12,
+          "hi": 15,
+          "load": 45,
+          "cue": "Off chest day, and actually loaded now."
+        },
+        {
+          "id": "pullA_e6",
+          "name": "Cable Biceps Curl",
+          "sets": 2,
+          "lo": 10,
+          "hi": 12,
+          "load": 37,
+          "cue": "Cut from three sets — the pulls already do plenty."
+        }
+      ]
+    },
+    "legsB": {
+      "id": "legsB",
+      "name": "Legs B",
+      "focus": "Hamstring-led",
+      "cardio": "",
+      "warmup": "Stepmill 8 min, then two ramp sets on the leg curl.",
+      "ex": [
+        {
+          "id": "legsB_e1",
+          "name": "Seated Leg Curl",
+          "sets": 2,
+          "lo": 8,
+          "hi": 12,
+          "load": 62.5,
+          "cue": "Heavy while you're fresh — the mirror of Monday, where it ran fourth."
+        },
+        {
+          "id": "legsB_e2",
+          "name": "Pendulum Squat",
+          "sets": 2,
+          "lo": 12,
+          "hi": 15,
+          "load": 45,
+          "cue": "Feet mid-platform, shoulder width. Lighter and higher rep than Monday on purpose."
+        },
+        {
+          "id": "legsB_e3",
+          "name": "Bulgarian Split Squat",
+          "sets": 2,
+          "lo": 10,
+          "hi": 12,
+          "load": 15,
+          "cue": "Per hand, per leg. First unilateral work in the program."
+        },
+        {
+          "id": "legsB_e4",
+          "name": "Leg Extension",
+          "sets": 2,
+          "lo": 15,
+          "hi": 20,
+          "load": 55,
+          "cue": "Drop set on set 2: to failure, strip 30%, straight back to failure."
+        },
+        {
+          "id": "legsB_e5",
+          "name": "Lying Leg Curl",
+          "sets": 2,
+          "lo": 12,
+          "hi": 15,
+          "load": 40,
+          "cue": "Hip extended instead of flexed — hits the hamstring differently to the seated version."
+        },
+        {
+          "id": "legsB_e6",
+          "name": "Standing Calf Raise",
+          "sets": 3,
+          "lo": 12,
+          "hi": 20,
+          "load": 90,
+          "cue": "Lighter, higher rep than Monday. Still pause the bottom."
+        }
+      ]
+    },
+    "pushB": {
+      "id": "pushB",
+      "name": "Push B",
+      "focus": "Incline & delts",
+      "cardio": "45 min incline walk",
+      "warmup": "Bar × 15, then 40 kg × 8 and 50 kg × 4.",
+      "ex": [
+        {
+          "id": "pushB_e1",
+          "name": "Incline Barbell Press",
+          "sets": 2,
+          "lo": 8,
+          "hi": 10,
+          "load": 60,
+          "cue": "The lighter of your two press days — deliberately. Twice-weekly heavy benching is what breaks shoulders."
+        },
+        {
+          "id": "pushB_e2",
+          "name": "Flat DB Press",
+          "sets": 2,
+          "lo": 10,
+          "hi": 12,
+          "load": 30,
+          "cue": "Per hand."
+        },
+        {
+          "id": "pushB_e3",
+          "name": "Pec Deck",
+          "sets": 2,
+          "lo": 12,
+          "hi": 15,
+          "load": 40,
+          "cue": "Lengthened partials after failure on set 2."
+        },
+        {
+          "id": "pushB_e4",
+          "name": "Lateral Raise",
+          "sets": 3,
+          "lo": 12,
+          "hi": 20,
+          "load": 7.5,
+          "cue": "Per hand."
+        },
+        {
+          "id": "pushB_e5",
+          "name": "Overhead Cable Triceps Ext",
+          "sets": 2,
+          "lo": 10,
+          "hi": 15,
+          "load": 30,
+          "cue": "Overhead hits the long head — Tuesday's pushdowns don't."
+        },
+        {
+          "id": "pushB_e6",
+          "name": "Cable Crunch",
+          "sets": 2,
+          "lo": 12,
+          "hi": 15,
+          "load": 43.75,
+          "cue": ""
+        }
+      ]
+    },
+    "pullB": {
+      "id": "pullB",
+      "name": "Pull B",
+      "focus": "Vertical & arms",
+      "cardio": "45 min incline walk",
+      "warmup": "Two light lat pulldown sets to get the shoulders moving before you hang.",
+      "ex": [
+        {
+          "id": "pullB_e1",
+          "name": "Reverse-Grip Pull-Up",
+          "sets": 2,
+          "lo": 6,
+          "hi": 10,
+          "load": 0,
+          "cue": "Bodyweight — log added weight only. Add weight once you clear 10."
+        },
+        {
+          "id": "pullB_e2",
+          "name": "Single-Arm Cable Lat Pulldown",
+          "sets": 2,
+          "lo": 10,
+          "hi": 12,
+          "load": 41.25,
+          "cue": "Per side. Let the shoulder travel all the way up at the top."
+        },
+        {
+          "id": "pullB_e3",
+          "name": "Seated Cable Row",
+          "sets": 2,
+          "lo": 10,
+          "hi": 12,
+          "load": 80,
+          "cue": "Wider grip than Wednesday's — different angle, same muscle."
+        },
+        {
+          "id": "pullB_e4",
+          "name": "Straight-Arm Rope Pulldown",
+          "sets": 2,
+          "lo": 12,
+          "hi": 15,
+          "load": 37,
+          "cue": "Cut from three sets and moved off the front of the session."
+        },
+        {
+          "id": "pullB_e5",
+          "name": "Reverse Pec Deck",
+          "sets": 3,
+          "lo": 15,
+          "hi": 20,
+          "load": 20,
+          "cue": "Second rear-delt hit of the week."
+        },
+        {
+          "id": "pullB_e6",
+          "name": "Hammer Curl",
+          "sets": 2,
+          "lo": 10,
+          "hi": 12,
+          "load": 17.5,
+          "cue": "Per hand. Off chest day, onto the day your biceps are already working."
+        }
+      ]
+    }
+  },
+  "order": [
+    "legsA",
+    "pushA",
+    "pullA",
+    "legsB",
+    "pushB",
+    "pullB"
+  ],
+  "schedule": {
+    "0": "pullB",
+    "1": "legsA",
+    "2": "pushA",
+    "3": "pullA",
+    "4": "",
+    "5": "legsB",
+    "6": "pushB"
+  }
+}

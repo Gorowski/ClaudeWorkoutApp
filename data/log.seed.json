@@ -1,0 +1,124 @@
+{
+  "2026-08-26": {
+    "routine": "pushA",
+    "notes": "Felt good, finally benched 100kg for 2 reps in a row!",
+    "ex": [
+      {
+        "id": "pullA_e1",
+        "name": "Plate Loaded Row",
+        "sets": [
+          {
+            "r": 6,
+            "w": 60
+          },
+          {
+            "r": 6,
+            "w": 60
+          }
+        ]
+      },
+      {
+        "id": "pushA_e1",
+        "name": "Bench Press",
+        "sets": [
+          {
+            "r": 6,
+            "w": 90
+          },
+          {
+            "r": 2,
+            "w": 100
+          }
+        ]
+      },
+      {
+        "id": "pushA_e2",
+        "name": "Incline DB Press",
+        "sets": [
+          {
+            "r": 8,
+            "w": 32.5
+          },
+          {
+            "r": 6,
+            "w": 35
+          }
+        ]
+      },
+      {
+        "id": "pushA_e3",
+        "name": "Cable Fly",
+        "sets": [
+          {
+            "r": 12,
+            "w": 13.75
+          },
+          {
+            "r": 12,
+            "w": 14.5
+          }
+        ]
+      },
+      {
+        "id": "pushA_e4",
+        "name": "Seated DB Shoulder Press",
+        "sets": [
+          {
+            "r": 8,
+            "w": 25
+          },
+          {
+            "r": 6,
+            "w": 25
+          }
+        ]
+      },
+      {
+        "id": "pushA_e5",
+        "name": "Lateral Raise",
+        "sets": [
+          {
+            "r": 12,
+            "w": 8
+          },
+          {
+            "r": 12,
+            "w": 8
+          },
+          {
+            "r": 12,
+            "w": 8
+          }
+        ]
+      },
+      {
+        "id": "pushA_e6",
+        "name": "Cable Triceps Pushdown",
+        "sets": [
+          {
+            "r": 12,
+            "w": 37
+          },
+          {
+            "r": 14,
+            "w": 37
+          }
+        ]
+      },
+      {
+        "id": "pushA_e7",
+        "name": "Cable Crunch",
+        "sets": [
+          {
+            "r": 12,
+            "w": 43.75
+          },
+          {
+            "r": 12,
+            "w": 43.75
+          }
+        ]
+      }
+    ]
+  }
+}
