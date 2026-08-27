@@ -5,10 +5,16 @@ production call sheet. It opens instantly, works with no signal, and installs
 to a phone home screen like an app.
 
 ```
-npm install     # only needed to run the tests
-npm start       # http://127.0.0.1:8899
-npm test        # 20 end-to-end checks in a real browser
+npm install                      # dev dependency: Playwright
+npx playwright install chromium  # the browser itself — once, ~150 MB
+npm start                        # http://127.0.0.1:8899
+npm test                         # 20 end-to-end checks in a real browser
 ```
+
+Node 18 or newer. Installing Playwright does not fetch a browser on its own,
+which is why the second line is separate — skip it and `npm test` fails with
+"Executable doesn't exist". Nothing but the tests needs it; `npm start` runs
+with no dependencies at all.
 
 There is no build step. The files in `src/` are the files the browser runs —
 what you edit is what executes, with no bundler in between. A static server is
@@ -89,6 +95,18 @@ likely to actually break: that a number typed into a box survives closing the
 app, that the page still opens with the network off, that typing does not throw
 focus out of the field, and that edits to the program persist. They are
 integration tests on purpose — none of those can be verified without a browser.
+
+## Trying it on a phone
+
+`http://localhost` is treated as a secure context, so service workers register
+there and the app installs from your own machine. A LAN address like
+`http://192.168.1.4:8899` is **not** — the page will load, but the service
+worker will silently not register and there will be no install prompt, so
+offline mode cannot be tested that way.
+
+To try it properly on a phone you need real HTTPS: a tunnel
+(`npx localtunnel --port 8899`, `cloudflared tunnel`, `ngrok http 8899`) or a
+static host.
 
 ## Deploying
 
